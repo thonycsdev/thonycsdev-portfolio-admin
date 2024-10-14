@@ -1,9 +1,10 @@
 package main
 
 import (
-	"fmt"
+	"thonycsdev/thonycsdev-portfolio-admin/postgres"
 )
 
 func main() {
-	fmt.Printf("ThonyCsDev Admin MicroService")
+	postgres.CreateConnection()
+
 }

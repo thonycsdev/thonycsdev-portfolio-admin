@@ -1,10 +1,7 @@
 package main
 
-import (
-	"thonycsdev/thonycsdev-portfolio-admin/postgres"
-)
+import ()
 
 func main() {
-	postgres.CreateConnection()
 
 }
